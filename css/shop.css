@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+/* Navbar */
+.navbar {
+    padding: 15px 30px; /* Increased padding for more space around the content */
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.navbar-brand img{
+    height: 50px;
+}
+
+.navbar-toggler {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+
+.nav-item {
+    margin: 0 20px; /* Adds space between each nav item */
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a{
+    color: rgba(0, 0, 0, 0.349);
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover{
+    color: rgba(0, 0, 0, 0.63);
+}
+
+.navbar-toggler {
+    margin-right: 10px; /* Adds space around the toggler on smaller devices */
+}
+
+
+
+/*  STYLES  FOR  FOOTER  */
+
+.footer {
+    background-color: #b4d4f5;
+    color: #000000;
+}
+
+.footer-logo img {
+    max-width: 100px;
+}
+
+.footer h5 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    font-size: 14px;
+    color: #083155;
+}
+
+.footer .list-unstyled li {
+    margin-bottom: 10px;
+}
+
+.footer .list-unstyled a {
+    color: #00448d;
+    text-decoration: none;
+}
+
+.footer .list-unstyled a:hover {
+    text-decoration: underline;
+}
+
+.footer .social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.footer .social-icon {
+    color: #495057;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.footer .social-icon:hover {
+    color: #007bff;
+}
+
+.footer .text-muted {
+    font-size: 12px;
+}
+
+/*  STYLES  FOR  FOOTER  */

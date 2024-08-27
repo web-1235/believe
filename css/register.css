@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background: linear-gradient(to bottom, #87cfeb70, #4683b471); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-primary {
+    background: linear-gradient(to right, #87CEEB, #4682B4); 
+    border: none;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(to right, #87CEEB, #4682B4); 
+}
+
+.input-group-text {
+    background: #f8f9fa;
+    border: none;
+}
+
+.form-control {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    width: 20%;
+}
+
+.form-control:focus {
+    box-shadow: none !important; 
+    border-color: #ced4da !important;
+    outline: none !important;
+    border: 1px solid black !important;
+}
+
+.card h3 {
+    color: #333;
+}
